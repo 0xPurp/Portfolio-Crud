@@ -1080,3 +1080,17 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+.bgblack{
+  background-color: #040b14;
+}
+
+.div1{
+  display: block;
+}
+
+.btnz{
+  display: block;
+  margin-top: 30px;
+}
