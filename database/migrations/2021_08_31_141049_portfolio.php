@@ -13,7 +13,11 @@ class Portfolio extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('portfolio', function (Blueprint $table){
+        $table->id();
+        $table->text('titre');
+        $table->text('description');
+        });
     }
 
     /**
@@ -23,6 +27,6 @@ class Portfolio extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('portfolio');
     }
 }

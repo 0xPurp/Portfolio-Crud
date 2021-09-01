@@ -13,7 +13,15 @@ class Fact extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('fact', function(Blueprint $table){
+        $table->id();
+        $table->text('titre');
+        $table->text('description');
+        $table->integer('client');
+        $table->integer('projets');
+        $table->integer('support');
+        $table->integer('team');
+        });
     }
 
     /**
@@ -23,6 +31,6 @@ class Fact extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('fact');
     }
 }

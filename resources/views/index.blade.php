@@ -134,7 +134,7 @@
             <div class="count-box">
               <i class="icofont-simple-smile"></i>
               <span data-toggle="counter-up">232</span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
+              <p><strong>Happy Clients</strong></p>
             </div>
           </div>
 
@@ -142,7 +142,7 @@
             <div class="count-box">
               <i class="icofont-document-folder"></i>
               <span data-toggle="counter-up">521</span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+              <p><strong>Projects</strong></p>
             </div>
           </div>
 
@@ -150,7 +150,7 @@
             <div class="count-box">
               <i class="icofont-live-support"></i>
               <span data-toggle="counter-up">1,463</span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+              <p><strong>Hours Of Support</strong></p>
             </div>
           </div>
 
@@ -158,7 +158,7 @@
             <div class="count-box">
               <i class="icofont-users-alt-5"></i>
               <span data-toggle="counter-up">15</span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+              <p><strong>Hard Workers</strong></p>
             </div>
           </div>
 

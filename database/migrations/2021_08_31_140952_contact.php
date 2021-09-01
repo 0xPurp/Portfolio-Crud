@@ -13,7 +13,14 @@ class Contact extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('contact', function (Blueprint $table){
+            $table->id();
+            $table->string('titre', 30);
+            $table->text('description');
+            $table->string('location', 69);
+            $table->string('email', 69);
+            $table->string('call', 69);
+        });
     }
 
     /**
@@ -23,6 +30,6 @@ class Contact extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('contact');
     }
 }

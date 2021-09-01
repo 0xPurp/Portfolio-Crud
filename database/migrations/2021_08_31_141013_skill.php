@@ -13,7 +13,17 @@ class Skill extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('skill', function (Blueprint $table){
+            $table->id();
+            $table->text('titre');
+            $table->text('description');
+            $table->integer('html');
+            $table->integer('css');
+            $table->integer('js');
+            $table->integer('php');
+            $table->integer('cms');
+            $table->integer('photoshop');
+        });
     }
 
     /**
@@ -23,6 +33,6 @@ class Skill extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('skill');
     }
 }
