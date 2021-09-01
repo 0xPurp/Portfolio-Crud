@@ -2,8 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Portfolio;
 use Illuminate\Http\Request;
+use App\Models\About;
+use App\Models\Contact;
+use App\Models\Fact;
+use App\Models\Portfolio;
+use App\Models\Service;
+use App\Models\Skill;
 
 class BackOfficeController extends Controller
 {
@@ -14,5 +19,6 @@ class BackOfficeController extends Controller
         $portfolioData = Portfolio::all();
         $serviceData = Service::all();
         $skillData = Skill::all();
-    } return view('index', compact($aboutData, $contactData, $factData, $portfolioData, $serviceData, $skilData));
+        return view('backoffice', compact($aboutData, $contactData, $factData, $portfolioData, $serviceData, $skillData));  
+    } 
 }
